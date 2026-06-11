@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:content-box;
+    font-family:'poppins';
+}
+body{
+    background: 
+    linear-gradient(135deg,#0d6b57,#446a46,#6d4c41);
+    color:white;
+
+
+}
+.hero{
+    display:flex;
+    justify-content: space-between;
+    padding:120px;
+   align-items: center;
+}
+.hero-txt{
+width:28%;
+}
+.hero h1{
+    font-size: 80px;
+    margin-bottom: 4px;
+}
+.hero p{
+    line-height: 2;
+    margin-bottom: 20px;
+}
+button{
+    background: rgb(219, 195, 84);
+    padding:15px 40px;
+    border-radius: 20px;
+    border: none;
+font-size: 20px;
+cursor: pointer;
+
+}
+.hero-imgg img{
+    width: 400px;
+    position:absolute;
+    top:50px;
+   right:50px;
+   border-radius:20px;
+}
+.para{
+   width:80%;
+    margin:auto;
+    margin-top:40px;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(10px);
+
+    border-radius:30px;
+    padding:40px;
+}
+.para-card{
+
+    text-align: center;
+}
+.meghna{
+    display: grid;
+    gap:20px;
+    width:85%;
+    margin:60px auto;
+    grid-template-columns: repeat(3,1fr);
+}
+.meg-{
+display: flex;
+height: 250px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+}
+.green{
+    background: green;
+}
+.brown{
+    background:#ebb643;
+}
+.begin{
+    background: #720810;background:linear-gradient(145deg,#d6b89c,#b28d73);
+    color:#333;
+}
+.img{
+    background: url('sea.jpeg');
+    background-size: cover;
+    background-position: center;
+}
