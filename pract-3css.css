@@ -1,0 +1,58 @@
+body{
+    background-color: grey;
+}
+.container{
+    width:95%;
+    margin: 2px auto;
+    display:flex;
+    padding:0px;
+    justify-content: center;
+    gap:100px;
+    border: 10px;
+    margin-top: 180px;
+}
+.container img{
+    width:250px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.container1 img{
+    width:200px;
+    height:250px;
+
+}
+.container2 img{
+    width:200px;
+    height:250px;
+}
+.container3 img{
+    width:200px;
+    height:250px;
+}
+.arrow{
+     position:absolute;
+    top:30%;
+    width:35px;
+    height:35px;
+    background:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+
+}
+.container1:hover{
+    transform: scale(1.05);
+   
+}
+.container2:hover{
+    transform: scale(1.05);
+   
+}
+.container3:hover{
+    transform: scale(1.05);
+    
+}
+
